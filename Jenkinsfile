@@ -9,6 +9,7 @@ pipeline{
 		stage('2-Deploy Code'){
 			steps{
 				echo "Deploying Code"
+                echo "testing"
 			}
 		}
 	}
